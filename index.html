@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Zhaokai Xu</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Source Themes Academic 4.5.0">
+    <meta name="author" content="Zhaokai Xu">
+    <meta name="description" content="Undergraduate CS major @ UC San Diego">
+    <link rel="alternate" hreflang="en-us" href="https://jackiezhaokai.github.io">
+    <meta name="theme-color" content="#2962ff">
+    <link rel="stylesheet" href="./static/academicons.min.css" crossorigin="anonymous"
+        integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=">
+    <link rel="stylesheet" href="./static/all.css" crossorigin="anonymous"
+        integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h">
+    <link rel="stylesheet" href="./static/jquery.fancybox.min.css" crossorigin="anonymous"
+        integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=">
+    <link rel="stylesheet" href="./static/github.min.css" crossorigin="anonymous" title="hl-light">
+    <link rel="stylesheet" href="./static/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled="">
+    <link rel="stylesheet" href="./static/leaflet.css" crossorigin="anonymous"
+        integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
+        integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css">
+    <link rel="stylesheet" href="./static/academic.min.33fe71e79b85aae18bf9ecf5c947c71d.css">
+    <link rel="apple-touch-icon" type="image/png" href="https://jackiezhaokai.github.ioimg/icon-192.png">
+    <link rel="canonical" href="https://jackiezhaokai.github.io">
+    <meta property="twitter:card" content="summary">
+
+    <meta property="og:description" content="See more details in Zichao's GitHub Pages">
+    <meta property="og:site_name" content="Zhaokai Xu">
+    <meta property="og:url" content="/">
+    <meta property="og:title" content="Link to Zichao's GitHub Pages">
+    <meta property="og:image" content="/static/zichaowu.jpeg">
+    <meta property="twitter:image" content="/static/zichaowu.jpeg">
+    <meta property="og:locale" content="en-us">
+    <meta property="og:updated_time" content="2019-09-27T00:00:00+00:00">
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    "url": "/"
+    }
+    </script>
+    <script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_org'] = 'P9H6Q';
+    window['_fs_namespace'] = 'FS';
+    (function(m,n,e,t,l,o,g,y){
+        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+        g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
+        o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_host+'/s/fs.js';
+        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+        g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
+        g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+        g.log = function(a,b) { g("log", [a,b]) };
+        g.consent=function(a){g("consent",!arguments.length||a)};
+        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+        g.clearUserCookie=function(){};
+    })(window,document,window['_fs_namespace'],'script','user');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100325286-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-100325286-2');
+    </script>
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" style="opacity: 1; visibility: visible;"
+    class="">
+    <aside class="search-results" id="search">
+        <div class="container">
+            <section class="search-header">
+                <div class="row no-gutters justify-content-between mb-3">
+                    <div class="col-6">
+                        <h1>Search</h1>
+                    </div>
+                    <div class="col-6 col-search-close">
+                        <a class="js-search" href="https://jackiezhaokai.github.io#"><i
+                                class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div id="search-box">
+                    <input name="q" id="search-query" placeholder="Search..." autocapitalize="off" autocomplete="off"
+                        autocorrect="off" spellcheck="false" type="search">
+                </div>
+            </section>
+            <section class="section-search-results">
+                <div id="search-hits">
+                </div>
+            </section>
+        </div>
+    </aside>
+    <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+        <div class="container">
+            <a class="navbar-brand" href="javascript:void(0)">Zhaokai Xu</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about" data-target="#about"><span>About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" data-target="#skills"><span>Skills</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience" data-target="#experience"><span>Experience</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-target="#projects"><span>Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-target="#contact"><span>Contact</span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-search" href="https://jackiezhaokai.github.io#"><i class="fas fa-search"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-dark-toggle" href="https://jackiezhaokai.github.io#"><i class="fas fa-moon"
+                                aria-hidden="false"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <span class="js-widget-page d-none"></span>
+    <section id="about" class="home-section wg-about   ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div id="profile">
+                        <img class="portrait" src="./static/zhaokai.JPG" alt="Avatar">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div id="profile-my">
+                        <div class="portrait-title">
+                            <h2>Zhaokai Xu</h2>
+                            <h3>Undergraduate at UC San Diego</h3>
+                            <h3>Full-stack engineer for web</h3>
+                        </div>
+                        <ul class="network-icon" aria-hidden="true">
+                            <li>
+                                <a href="mailto:gzxzk96@gmail.com">
+                                    <i class="fas fa-envelope big-icon" style="color:gray"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/zhaokaixu/" target="_blank" rel="noopener">
+                                    <i class="fab fa-linkedin big-icon" style="color:#0e76a8"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/JACKIEZHAOKAI" target="_blank" rel="noopener">
+                                    <i class="fab fa-github big-icon" style="color:black"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3>Education</h3>
+                    <ul class="ul-edu fa-ul">
+                        <!-- <li>
+                            <i class="fa-li fas fa-graduation-cap"></i>
+                            <div class="description">
+                                <p class="course">MS in Computer Science, 2020 (expected)</p>
+                                <p class="institution">University of California San Diego</p>
+                            </div>
+                        </li> -->
+                        <li>
+                            <i class="fa-li fas fa-graduation-cap"></i>
+                            <div class="description">
+                                <p class="course">BS in Computer Science, 2016 - 2020</p>
+                                <p class="institution">University of California, San Diego</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="w3-container intro" style="margin-top:20px;">
+            <p>Howdy! I’m Zichao, a B.S. student majoring in Computer Science at UC San Diego. I am now actively seeking
+                2020 opportunities in software development.
+                My past internship experience has a primary focus on front-end/full-stack development, but I'm also
+                interested in cloud computing, back-end system, and mobile web development.</p>
+            <p>I am a highly motivated individual and always eager to
+                learn new technologies and make real-world impacts with my computer science skills.
+                From my previous internships, I have a strong background in frontend
+                and full-stack development and has contributed greatly to my previous
+                employers’ software platforms. My experience with the React + Django + MySQL stack
+                allows me to always put myself in users' shoes. My emphasis on user experience inspires
+                hard work on writing the detailed documentation and architecting robust and scalable software designs.
+                Although most of my experience is related to web development, I am eager to explore other fields,
+                such as cloud computing and mobile development. I am also a fast learner, able to become
+                familiar with new frameworks and existing codebase in a short amount of time at the beginning of my internships.</p>
+        </div>
+    </section>
+    <section id="skills" class="home-section wg-featurette   ">
+        <div class="container">
+            <div class="row featurette">
+                <div class="col-md-12 section-heading">
+                    <h1>Skills</h1>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="featurette-icon"><i class="fab fa-python"></i></div>
+                    <h3>Django</h3>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="featurette-icon"><i class="fab fa-aws"></i></div>
+                    <h3>Amazon Web Services</h3>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="featurette-icon"><i class="fab fa-android"></i></div>
+                    <h3>Android</h3>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="featurette-icon"><i class="fab fa-react"></i></div>
+                    <h3>React & Redux</h3>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="featurette-icon"><i class="fas fa-database"></i></div>
+                    <h3>MySQL | PostgreSQL</h3>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="featurette-icon"><i class="fas fa-database"></i></div>
+                    <h3>Firebase | DynamoDB</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="home-section wg-experience   ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 section-heading">
+                    <h1>Experience</h1>
+                    <p>Industry</p>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="row experience">
+                        <div class="col-auto text-center flex-column d-none d-sm-flex">
+                            <div class="row h-50">
+                                <div class="col ">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <div class="m-2">
+                                <span class="badge badge-pill border ">&nbsp;</span>
+                            </div>
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Software Engineer Internship
+                                    </h4>
+                                    <h4 class="card-title exp-company text-muted my-0"><a href="https://whova.com/"
+                                            target="_blank" rel="noopener">Whova, Inc</a></h4>
+                                    <div class="text-muted exp-meta">
+                                        Jun 2019 – Sep 2019
+                                        <span class="middot-divider"></span>
+                                        <span>San Diego, California</span>
+                                    </div>
+                                    <div class="card-text" style="padding-top: 5%">
+                                        <p>In this internship, I re-developed the management tool of speaker embed
+                                            webpage on whova.com event management platform used by 2,500+ events each
+                                            year. I implemented the front end in two versions for A/B testing and the
+                                            back end in Django and MySQL. In addition, I added 15 page templates for
+                                            organizers to display event information to 90,000+ attendees monthly.
+                                            Projects I worked on in this internship include:</p>
+                                        <ul>
+                                            <li>Email Automation: Designed prioritized selection & scheduling algorithms
+                                                to further automate internal email marketing system. The improved system
+                                                daily selects 2,200 Gmail and non-Gmail addresses from database to send
+                                                email based on different templates.</li>
+                                            <li>Distributed Job Queue: Created a network service for the email sending
+                                                system that uses multiple worker processes to send marketing emails
+                                                concurrently. Achieved atomicity, concurrency, and failure handling.
+                                            </li>
+                                            <li>Web Mining: Updated and improved internal web scraping parser for event
+                                                information based on Selenium and XPath syntax.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row experience">
+                        <div class="col-auto text-center flex-column d-none d-sm-flex">
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <div class="m-2">
+                                <span class="badge badge-pill border ">&nbsp;</span>
+                            </div>
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Web Development Internship
+                                    </h4>
+                                    <h4 class="card-title exp-company text-muted my-0">
+                                        <a href="http://www.evt.ai/" target="_blank" rel="noopener">Educational Vision
+                                            Technologies, Inc.</a>
+                                    </h4>
+                                    <div class="text-muted exp-meta">
+                                        Jun 2018 – Dec 2018
+                                        <span class="middot-divider"></span>
+                                        <span>San Diego, California</span>
+                                    </div>
+
+                                    <div class="card-text" style="padding-top: 5%">
+                                        <p>In this internship and the continuing part-time job, I contributed greatly as
+                                            a fullstack developer and built major features of the evt.ai video learning
+                                            platform in React and Django, now used by 3 universities in San Diego.
+                                            Notable projects in this internship include:</p>
+                                        <ul>
+                                            <li>Notes Generation: Developed a back-end microservice that automates the
+                                                creation of notes PDF from scanned images (generated by CV on class
+                                                videos) and uploads to AWS S3 buckets using ReportLab, Boto3, and hug
+                                                Python libraries.</li>
+                                            <li>Fuzzy Search: Integrated fuzzy search (fuse.js) to video transcript to
+                                                streamline user searching experience. Improved accuracy by preprocessing
+                                                search queries and dynamically adjusting search parameters.</li>
+                                            <li>Optimization: Refactored code imports to reduce initial app load time by
+                                                40%. Analyzed compiled bundle contents for code minimization. Optimized
+                                                development processes with import aliases and configuration
+                                                decentralization.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row experience">
+                        <div class="col-auto text-center flex-column d-none d-sm-flex">
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <div class="m-2">
+                                <span class="badge badge-pill border ">&nbsp;</span>
+                            </div>
+                            <div class="row h-50">
+                                <div class="col ">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Front-end Engineer Internship
+                                    </h4>
+                                    <h4 class="card-title exp-company text-muted my-0">
+                                        <a href="javascript:void(0)">Tiger Information & Science Technology Co.,
+                                            Ltd.</a>
+                                    </h4>
+                                    <div class="text-muted exp-meta">
+                                        Jul 2017 – Aug 2017
+                                        <span class="middot-divider"></span>
+                                        <span>Guangzhou, Guangdong, China</span>
+                                    </div>
+
+                                    <div class="card-text" style="padding-top: 5%">
+                                        <p>In this internship, I implemented the app interface in VueJS and LESS for
+                                            user-facing recruiting platform. To make the platform's landing pages (800PV
+                                            daily) more responsive, I revamped it using Bootstrap and Swiper library. I
+                                            also tested browser compatibility (IE, Safari, Firefox & older versions) on
+                                            BrowserStack to ensure coverage.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="home-section wg-portfolio dark" style="background-color: navy;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 section-heading">
+                    <h1>Projects</h1>
+                </div>
+                <div class="col-xs-12 col-md-8">
+                    <span class="d-none default-project-filter">*</span>
+                    <div class="isotope projects-container js-layout-masonry "
+                        style="position: relative; height: 369.562px;">
+                        <div class="project-card project-item isotope-item js-id-ML js-id-Web"
+                            style="position: absolute; left: 0px; top: 0px;">
+                            <div class="card">
+                                <a href="https://github.com/CharryWu/mini-dropbox-file-storage-system"
+                                    class="card-image hover-overlay">
+                                    <img src="./static/mini-dropbox.png" alt="" class="img-responsive">
+                                </a>
+                                <div class="card-text">
+                                    <h4><a href="https://github.com/CharryWu/mini-dropbox-file-storage-system">File-storage
+                                            System</a></h4>
+                                    <div class="article-style">
+                                        <p>C++ implementation of dropbox-like file storage system</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card project-item isotope-item js-id-ML js-id-Web js-id-NLP"
+                            style="position: absolute; left: 236.406px; top: 0px;">
+                            <div class="card">
+                                <a href="" target="_blank" rel="noopener" class="card-image hover-overlay">
+                                    <img src="./static/featured_hu31e089d85ea2b84b38f67bd16b50b0aa_187992_550x0_resize_q90_lanczos_2.png"
+                                        alt="" class="img-responsive">
+                                </a>
+                                <div class="card-text">
+                                    <h4><a href="https://github.com/CharryWu/vibe-music-player" target="_blank"
+                                            rel="noopener">Vibe music player</a></h4>
+                                    <div class="article-style">
+                                        <p>An Android music player with geobased recommendation</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card project-item isotope-item js-id-ML js-id-Web js-id-NLP"
+                            style="position: absolute; left: 236.406px; top: 0px;">
+                            <div class="card">
+                                <a href="" target="_blank" rel="noopener" class="card-image hover-overlay">
+                                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+                                        alt="" class="img-responsive">
+                                </a>
+                                <div class="card-text">
+                                    <h4><a href="https://github.com/CharryWu/reactjs-utils" target="_blank"
+                                            rel="noopener">reactjs-utils</a></h4>
+                                    <div class="article-style">
+                                        <p>A useful collection of utility functions that works with React.js</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="contact" class="home-section wg-contact   ">
+        <div class="container">
+            <div class="row contact-widget">
+                <div class="col-12 col-lg-4 section-heading">
+                    <h1>Contact</h1>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="mb-3">
+                        <form name="contact" method="POST" action="https://formspree.io/test@example.org">
+                            <div class="form-group form-inline">
+                                <label class="sr-only" for="inputName">Name</label>
+                                <input type="text" name="name" class="form-control w-100" id="inputName"
+                                    placeholder="Name" required="">
+                            </div>
+                            <div class="form-group form-inline">
+                                <label class="sr-only" for="inputEmail">Email</label>
+                                <input type="email" name="email" class="form-control w-100" id="inputEmail"
+                                    placeholder="Email" required="">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="inputMessage">Message</label>
+                                <textarea name="message" class="form-control" id="inputMessage" rows="5"
+                                    placeholder="Message" required=""></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <script src="./static/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="./static/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q="
+        crossorigin="anonymous"></script>
+    <script src="./static/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI="
+        crossorigin="anonymous"></script>
+    <script src="./static/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M="
+        crossorigin="anonymous"></script>
+    <script src="./static/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8="
+        crossorigin="anonymous"></script>
+    <script src="./static/r.min.js"></script>
+    <script src="./static/leaflet.js"
+        integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+        crossorigin="anonymous"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+        const search_index_filename = "/index.json";
+        const i18n = {
+            'placeholder': "Search...",
+            'results': "results found",
+            'no_results': "No results found"
+        };
+        const content_type = {
+            'post': "Posts",
+            'project': "Projects",
+            'publication': "Publications",
+            'talk': "Talks"
+        };
+    </script>
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    <script src="./static/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI="
+        crossorigin="anonymous"></script>
+    <script src="./static/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U="
+        crossorigin="anonymous"></script>
+    <script src="./static/academic.min.130521ecfc6f534c52c158217bbff718.js"></script>
+    <div class="container">
+        <footer class="site-footer">
+            <p class="powered-by">
+                Copyright © 2019, Zhaokai Xu.
+            </p>
+        </footer>
+    </div>
+    <div id="modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cite</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <pre><code class="tex hljs"></code></pre>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-outline-primary my-1 js-copy-cite" href="https://jackiezhaokai.github.io#"
+                        target="_blank">
+                        <i class="fas fa-copy"></i> Copy
+                    </a>
+                    <a class="btn btn-outline-primary my-1 js-download-cite" href="https://jackiezhaokai.github.io#"
+                        target="_blank">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                    <div id="modal-error"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
